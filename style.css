@@ -4,10 +4,14 @@
     box-sizing: border-box;  /* Свойства для сброса начальных стилей элементов */
 }
 
-body {}
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030;
+}
 
 header {
-    /* Стили для хедера */
+    background-color: blue;
+    padding: 70px;/* Стили для хедера */
 }
 
 header span {
@@ -27,7 +31,7 @@ header span {
 }
 
 .main-image {
-    /* Стили для изображения в первой секции */
+    max-width: 715px;/* Стили для изображения в первой секции */
 }
 
 
@@ -64,15 +68,16 @@ select {
 }
 
 .line {
-    /* Стили для линии */
+    margin-top: 35px;
+    margin-bottom: 35px;/* Стили для линии */
 }
 
 table {
-    /* Стили для таблицы */
+    border-style: inset;/* Стили для таблицы */
 }
 
 th, td {
-    /* Стили для ячеек таблицы */
+    padding: 5px;/* Стили для ячеек таблицы */
 }
 
 footer {
