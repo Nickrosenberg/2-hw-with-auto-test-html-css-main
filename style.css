@@ -55,6 +55,8 @@ header span {
 
 
 .about-section {
+    padding-top: 75px;
+    padding-bottom: 55px;
     /* Стили для второй секции */
 }
 
@@ -70,10 +72,12 @@ select {
 }
 
 .frameworks-list {
+    padding-left: 20px;
     list-style-image: url(assets/solar_map-arrow-up-bold.svg);/* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+    padding-left: 20 px;
     list-style-type: decimal;/* Стили для нумерованного списка во второй секции */
 }
 
@@ -83,13 +87,14 @@ select {
 
 .text-field {
     width: 300px;
-    height: 40px;/* Стили для односточного поля ввода текста */
+    height: 40px;
+    padding: 15px;
+    border-radius: 0%;/* Стили для односточного поля ввода текста */
 }
 
 .btn {
     width: 130px;
     height: 40px;
-    border-radius: 4px;
     background: #0a61f7;
     font-size: 14px;
     color: #fff;
