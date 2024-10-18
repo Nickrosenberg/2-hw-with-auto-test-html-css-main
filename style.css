@@ -26,6 +26,7 @@ header span {
 }
 
 .main-title {
+    font-family: "Inter", sans-serif;
     margin-bottom: 30px;
     color: #363940;
     font-size: 50px;
@@ -34,6 +35,7 @@ header span {
 }
 
 .main-text {
+    font-family: "Inter", sans-serif;
     color: black;
     font-size: 16px;
     font-weight: 400;
@@ -51,7 +53,10 @@ header span {
 }
 
 select {
-    ;/* Стили для выпадающего списка */
+    height: 35px; 
+    line-height: 35px; 
+    padding: 0 30px;
+    /* Стили для выпадающего списка */
 }
 
 .section-title {
@@ -59,7 +64,7 @@ select {
 }
 
 .frameworks-list {
-    list-style-image: url(assets/solar_map-arrow-up-bold.svg)/* Стили для маркированного списка во второй секции */
+    list-style-image: url(assets/solar_map-arrow-up-bold.svg);/* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
