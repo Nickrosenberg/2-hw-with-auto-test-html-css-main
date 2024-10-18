@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: blue;
+    background-color: rgb(41, 101, 241);
     padding: 70px;/* Стили для хедера */
 }
 
@@ -33,7 +33,7 @@ header span {
 
 .main-title {
     font-family: "Inter", sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #363940;
     font-size: 50px;
     font-weight: 700;
@@ -43,7 +43,7 @@ header span {
 .main-text {
     font-family: "Inter", sans-serif;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     margin-bottom: 40px;/* Стили для текста в первой секции */
@@ -55,8 +55,7 @@ header span {
 
 
 .about-section {
-    padding-top: 75px;
-    padding-bottom: 55px;
+    padding: 100px 0px;
     /* Стили для второй секции */
 }
 
@@ -105,8 +104,7 @@ select {
 }
 
 .line {
-    margin-top: 35px;
-    margin-bottom: 35px;/* Стили для линии */
+   margin: 35px 0px;/* Стили для линии */
 }
 
 table {
@@ -127,6 +125,7 @@ footer {
 }
 
 .footer-link {
+    font-size: 14px;
     text-decoration: none;
     text-align: justify;/* Стили для футера */
 }
