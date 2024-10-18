@@ -19,15 +19,26 @@ header span {
 }
 
 .main-section {
-    /* Стили для первой секции */
+    background-color: aliceblue;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: min-content;/* Стили для первой секции */
 }
 
 .main-title {
-    /* Стили для заголовка в первой секции */
+    margin-bottom: 30px;
+    color: #363940;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;/* Стили для заголовка в первой секции */
 }
 
 .main-text {
-    /* Стили для текста в первой секции */
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 40px;/* Стили для текста в первой секции */
 }
 
 .main-image {
@@ -64,7 +75,16 @@ select {
 }
 
 .btn {
-    /* Стили для кнопки */
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    background: #0a61f7;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 10.6px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;/* Стили для кнопки */
 }
 
 .line {
@@ -73,7 +93,8 @@ select {
 }
 
 table {
-    border-style: inset;/* Стили для таблицы */
+    border-style: solid;
+    margin-bottom: 30px;/* Стили для таблицы */
 }
 
 th, td {
@@ -81,9 +102,11 @@ th, td {
 }
 
 footer {
-    /* Стили для футера */
+    background-color: rgb(181, 184, 226);
+    padding: 30px;/* Стили для футера */
 }
 
 .footer-link {
-    /* Стили для футера */
+    text-decoration: none;
+    text-align: justify;/* Стили для футера */
 }
