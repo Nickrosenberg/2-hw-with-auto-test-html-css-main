@@ -15,7 +15,13 @@ header {
 }
 
 header span {
-    /* Стили для текста в хедере IT-INCUBATOR */
+    font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 60px;
+    text-align: right;/* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
@@ -76,7 +82,8 @@ select {
 }
 
 .text-field {
-    /* Стили для односточного поля ввода текста */
+    width: 300px;
+    height: 40px;/* Стили для односточного поля ввода текста */
 }
 
 .btn {
