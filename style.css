@@ -109,19 +109,20 @@ select {
 
 table {
     border-collapse: collapse;
-    margin-bottom: 30px;/* Стили для таблицы */
+    margin-bottom: 30px;
+    font-size: 14px;/* Стили для таблицы */
 }
 
 th, td {
     border: 1 px #95A188;
     width: 140px;
-    padding: 15px 0;
+    padding: 12px 15px;
     text-align: center;/* Стили для ячеек таблицы */
 }
 
 footer {
     background-color: rgb(181, 184, 226);
-    padding: 20px 0;/* Стили для футера */
+    padding: 26px 0;/* Стили для футера */
 }
 
 .footer-link {
