@@ -67,6 +67,7 @@ select {
 }
 
 .section-title {
+    margin-bottom: 25px;
     padding-bottom: 25px;/* Стили для заголовков во второй секции */
 }
 
